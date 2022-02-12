@@ -342,18 +342,18 @@
         </div>
         <form class="footer-form">
           <p class="join-text">Подпишитесь на рассылку</p>
-          <label class="form-field">
-            <div class="footer-form-wrap">
+          <div class="footer-form-wrap">
+            <label>
               <input type="email" name="email" class="footer-form-input" placeholder="E-mail">
-              <button type="submit" class="hero button">Подписаться <svg class="footer-send" width="24" height="24">
+            </label>
+                <button type="submit" class="hero button">Подписаться <svg class="footer-send" width="24" height="24">
                 <use href="./images/sprite.svg#send"></use>
-              </svg></button>
-            </div>
-          </label>
+                </svg></button>
+          </div>
         </form>
       </div>
     </footer>
-    <!-----Модальное окно ----->
+    <!-- Модальное окно -->
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button class="modal-button" data-modal-close><svg class="icon-modal" width="18" height="18">
@@ -364,7 +364,7 @@
       <p class="form-text">Оставьте свои данные, мы вам перезвоним</p>
       <label class="form-field">
         <span class="form-label">Имя</span>
-        <input type="name" name="name" class="form-input">
+        <input type="text" name="name" class="form-input">
         <svg class="form-icon" width="18" height="18">
           <use href="./images/sprite.svg#person"></use>
         </svg>
